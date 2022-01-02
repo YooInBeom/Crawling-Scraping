@@ -1,5 +1,3 @@
-import datetime
-from datetime import datetime
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
@@ -38,6 +36,7 @@ def main():
     plt.xlim(1981, 2014)
     plt.ylim(500, 2500)
     plt.legend(loc='best')
+    plt.title('환율/고용률')
 
     print(s_jobs)
     plt.subplot(2, 1, 2)
