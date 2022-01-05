@@ -16,4 +16,4 @@ response = sparql.query().convert()
 for result in response['results']['bindings']:
     print(result['s']['value'], result['address']['value'])
 
-d
+dd
